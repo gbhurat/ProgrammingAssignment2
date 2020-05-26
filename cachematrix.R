@@ -20,8 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getInverse <- function(){
                 i ## gets the value of i where called
         }
-        list(set = set, get = get, setInverse = setInverse, getInverse = getInverse) ##you need this in order to refer 
-                                                                                     ## to the functions with the $operator
+        list(set = set, get = get, setInverse = setInverse, getInverse = getInverse) ## to refer to to function with $ operator
 
 }
 
